@@ -9,10 +9,7 @@ body {
 	background-color: #FCFCFC; /* Off white */
 	
 	/* Can't seem to get ligatures to work... */
-	-ms-font-feature-settings:     'smcp' 1, 'liga' 1;  /* IE10 */
-    -moz-font-feature-settings:    'smcp' 1, 'liga' 1;  /* Firefox */
-    -webkit-font-feature-settings: 'smcp' 1, 'liga' 1;  /* Chrome, Safari, Opera */
-    font-feature-settings:         'smcp' 1, 'liga' 1;  /* Future-proof! */ 
+
 }
 
 p {
