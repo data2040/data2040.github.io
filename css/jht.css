@@ -1,5 +1,5 @@
 body {
-    font-family: 'EB Garamond', 'Constantia', 'Georgia', serif;
+    font-family: 'Constantia', 'Georgia', serif;
 	font-size: 100%;
     margin-left:auto;
     margin-right:auto;
@@ -100,7 +100,7 @@ td {
 }
 
 .sc {
-font-family: 'EB Garamond SC', 'Constantia', 'Georgia', serif;
+font-family: 'Constantia', 'Georgia', serif;
 font-style: normal;
 -moz-hyphens: none;
 -webkit-hyphens: none;
