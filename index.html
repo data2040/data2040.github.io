@@ -29,6 +29,36 @@
 		<meta name="msapplication-TileImage" content="./sam.ico/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<style>
+			@media (max-width: 550px) {
+				.big-container {
+					display: none;
+				}
+			}
+			@media (min-width: 550px) {
+				.small-container {
+					display: none;
+				}
+			}
+			/* Responsive iFrame */
+			.responsive-iframe-container {
+				position: relative;
+				padding-bottom: 56.25%;
+				padding-top: 30px;
+				height: 0;
+				overflow: hidden;
+			}
+			.responsive-iframe-container iframe,   
+			.vresponsive-iframe-container object,  
+			.vresponsive-iframe-container embed {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -37,7 +67,6 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
 						<h1>DATA2040</h1>
 						<p>Welcome to DATA 2040, Advanced Topics in Data Science!</p>
 					</header>
@@ -48,7 +77,6 @@
 							<li><a href="#intro" class="active">Overview</a></li>
 							<li><a href="#hours">Hours</a></li>
 							<li><a href="#cta">Documents and Policies</a></li>
-							<!-- <li><a href="#cta">Get Started</a></li> -->
 						</ul>
 					</nav>
 
@@ -81,20 +109,24 @@
 											</div>
 										</div>
 										<p style= "text-align: center"><b>Remember to check piazza for announcements!</b></p>
-										<!-- <ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
-										</ul> -->
+									
 									</div>
-									<!-- <span class="image"><img src="images/pic01.jpg" alt="" /></span> -->
+	
 								</div>
 							</section>
 
-						<!-- First Section -->
 							<section id="hours" class="main special">
-								<header class="major">
+								<header class="major" style= "margin-bottom: 0">
 									<h2>Hours</h2>
 								</header>
-								
+								<div>
+									<div class="responsive-iframe-container big-container">
+										<iframe src="https://calendar.google.com/calendar/embed?src=brown.edu_maqnsgf8h3fijrvhmo9a0mnims%40group.calendar.google.com&ctz=America%2FNew_York" style="border-width:0" width="100%" height="650" frameborder="0" scrolling="no"></iframe>
+									</div>
+									<div class="responsive-iframe-container small-container">
+										<iframe src="https://calendar.google.com/calendar/embed?src=brown.edu_maqnsgf8h3fijrvhmo9a0mnims%40group.calendar.google.com&ctz=America%2FNew_York&mode=AGENDA" style="border-width:0" width="100%" height="800" frameborder="0" scrolling="no"></iframe>
+									</div>
+								</div>								
 
 							</section>
 
