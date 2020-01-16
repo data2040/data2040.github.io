@@ -1,4 +1,4 @@
 # data2040.github.io
-DATA2040 Spring 2019 Course Website
+Website for DATA2040 Deep Learning and Advanced Topics in Data Science 
 
 see the website at: https://data2040.github.io/
